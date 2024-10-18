@@ -38,7 +38,7 @@ class Player(GameSprite):
 background = transform.scale(image.load("background.jpg"), (win_width,win_height))
 
 racket_l = Player("racket.png",25,win_height/2,10,39,136)
-racked_r = Player("racket.png",win_width-50,win_height/2,5,39,136)
+racked_r = Player("racket.png",win_width-50,win_height/2,10,39,136)
 ball = GameSprite("tenis_ball.png",win_width/2,win_height/2,10,50,50)
 
 font.init()
